@@ -1,0 +1,157 @@
+/* L’ÉCLAT Luxury Overrides */
+
+/*
+ * This optional stylesheet overrides the original Ludus template styles to
+ * create a refined, luxury aesthetic suitable for high‑end brands.  It
+ * introduces a gold‑and‑black colour palette, adjusts typography, and adds
+ * subtle effects to buttons, cards and other UI elements.  Import this
+ * stylesheet after the existing app.css to apply the overrides globally.
+ */
+
+:root {
+  /* Colour palette */
+  --lux-gold: #D4AF37;
+  --lux-black: #000000;
+  --lux-white: #ffffff;
+  --lux-muted: rgba(255,255,255,.72);
+  --lux-border: rgba(212,175,55,.38);
+}
+
+/* Colour overrides for text, backgrounds and borders */
+.text-primary, .primary-color, .u-c-brand, .u-c-primary, .u-c-theme, .gl-text-primary,
+.s-color, .color-primary, .color-theme {
+  color: var(--lux-gold) !important;
+}
+
+.bg-primary, .bg-brand, .u-bg-brand, .u-bg-primary, .bg-theme, .bg-main,
+.gl-bg-primary, .gl-bg-theme {
+  background: var(--lux-gold) !important;
+}
+
+.border-primary, .u-bc-brand, .u-bc-primary, .u-bc-theme, .gl-border-primary {
+  border-color: var(--lux-gold) !important;
+}
+
+/* Global backgrounds and text colour */
+html, body {
+  background: var(--lux-black) !important;
+  color: var(--lux-white) !important;
+}
+
+a {
+  color: var(--lux-white) !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--lux-gold) !important;
+}
+
+/* Buttons */
+.btn, button, input[type="submit"] {
+  border-radius: 999px !important;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 12px 18px;
+  transition: transform .18s ease, filter .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+.btn--e-brand, .btn--primary, .btn-primary {
+  background: var(--lux-gold) !important;
+  border-color: var(--lux-gold) !important;
+  color: var(--lux-black) !important;
+  box-shadow: 0 12px 34px rgba(212,175,55,.14) !important;
+}
+
+.btn--e-brand:hover, .btn--primary:hover, .btn-primary:hover {
+  filter: brightness(.96);
+  transform: translateY(-1px);
+  box-shadow: 0 16px 44px rgba(212,175,55,.18) !important;
+}
+
+.btn--e-transparent-brand, .btn-outline-primary {
+  background: transparent !important;
+  border: 1px solid var(--lux-gold) !important;
+  color: var(--lux-gold) !important;
+}
+
+.btn--e-transparent-brand:hover, .btn-outline-primary:hover {
+  background: rgba(212,175,55,.12) !important;
+  color: var(--lux-white) !important;
+  transform: translateY(-1px);
+}
+
+/* Cards and panels */
+.card, .product, .product-o, .product-o2, .product-b, .feature, .blog, .testimonial {
+  background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02)) !important;
+  border: 1px solid rgba(255,255,255,.07) !important;
+  border-radius: 18px !important;
+}
+
+/* Typography */
+.heading, h1, h2, h3, h4, h5 {
+  font-family: "Georgia", "Times New Roman", serif;
+  letter-spacing: .07em;
+  font-weight: 600;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Helvetica Neue", sans-serif;
+  letter-spacing: .01em;
+  line-height: 1.9;
+}
+
+/* Muted text */
+.muted, .u-c-secondary, .text-muted {
+  color: var(--lux-muted) !important;
+}
+
+/* Form inputs */
+.form-control {
+  background: #0b0b0b !important;
+  border: 1px solid rgba(212,175,55,.35) !important;
+  color: #fff !important;
+  border-radius: 999px !important;
+  padding: 12px 14px !important;
+}
+
+.form-control::placeholder {
+  color: rgba(255,255,255,.45);
+}
+
+/* Footer and header */
+footer, .footer-area {
+  background: #000 !important;
+  border-top: 1px solid var(--lux-border) !important;
+}
+
+.header, .top-bar, .menu-init, .primary-nav, .secondary-nav, .header-wrapper {
+  background: rgba(0,0,0,.86) !important;
+  border-bottom: 1px solid var(--lux-border) !important;
+  backdrop-filter: blur(10px);
+}
+
+/* Badges */
+.badge-lux {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--lux-border);
+  border-radius: 999px;
+  padding: 10px 14px;
+  background: rgba(0,0,0,.35);
+  color: var(--lux-white);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.badge-lux i {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--lux-gold);
+  display: inline-block;
+  box-shadow: 0 0 0 6px rgba(212,175,55,.12);
+}
